@@ -8,53 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ThankmasCalendar
 build_property.RootNamespace = ThankmasCalendar
-build_property.ProjectDir = /Users/alyssanicoll/Development/progress/ThankmasCalendar/
+build_property.ProjectDir = C:\Users\Layla\source\repos\ThankmasCalendar\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/alyssanicoll/Development/progress/ThankmasCalendar
+build_property.MSBuildProjectDirectory = C:\Users\Layla\source\repos\ThankmasCalendar
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/alyssanicoll/Development/progress/ThankmasCalendar/App.razor]
+[C:/Users/Layla/source/repos/ThankmasCalendar/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alyssanicoll/Development/progress/ThankmasCalendar/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+[C:/Users/Layla/source/repos/ThankmasCalendar/Shared/GingerbreadHouse.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEdpbmdlcmJyZWFkSG91c2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alyssanicoll/Development/progress/ThankmasCalendar/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/alyssanicoll/Development/progress/ThankmasCalendar/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/alyssanicoll/Development/progress/ThankmasCalendar/Shared/GingerbreadHouse.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0dpbmdlcmJyZWFkSG91c2UucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/alyssanicoll/Development/progress/ThankmasCalendar/_Imports.razor]
+[C:/Users/Layla/source/repos/ThankmasCalendar/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alyssanicoll/Development/progress/ThankmasCalendar/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-64x9wbs8ed
+[C:/Users/Layla/source/repos/ThankmasCalendar/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-vci81qhjud
 
-[/Users/alyssanicoll/Development/progress/ThankmasCalendar/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-uoe62xba1l
+[C:/Users/Layla/source/repos/ThankmasCalendar/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jipufdnlo2
 
-[/Users/alyssanicoll/Development/progress/ThankmasCalendar/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/Layla/source/repos/ThankmasCalendar/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ol404xziz4
+
+[C:/Users/Layla/source/repos/ThankmasCalendar/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alyssanicoll/Development/progress/ThankmasCalendar/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+[C:/Users/Layla/source/repos/ThankmasCalendar/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alyssanicoll/Development/progress/ThankmasCalendar/Pages/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0xheW91dC5jc2h0bWw=
+[C:/Users/Layla/source/repos/ThankmasCalendar/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,30 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alyssanicoll/Development/progress/ThankmasCalendar/ThankmasCalendar.csproj": {}
+    "C:\\Users\\Layla\\source\\repos\\ThankmasCalendar\\ThankmasCalendar.csproj": {}
   },
   "projects": {
-    "/Users/alyssanicoll/Development/progress/ThankmasCalendar/ThankmasCalendar.csproj": {
+    "C:\\Users\\Layla\\source\\repos\\ThankmasCalendar\\ThankmasCalendar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alyssanicoll/Development/progress/ThankmasCalendar/ThankmasCalendar.csproj",
+        "projectUniqueName": "C:\\Users\\Layla\\source\\repos\\ThankmasCalendar\\ThankmasCalendar.csproj",
         "projectName": "ThankmasCalendar",
-        "projectPath": "/Users/alyssanicoll/Development/progress/ThankmasCalendar/ThankmasCalendar.csproj",
-        "packagesPath": "/Users/alyssanicoll/.nuget/packages/",
-        "outputPath": "/Users/alyssanicoll/Development/progress/ThankmasCalendar/obj/",
+        "projectPath": "C:\\Users\\Layla\\source\\repos\\ThankmasCalendar\\ThankmasCalendar.csproj",
+        "packagesPath": "C:\\Users\\Layla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Layla\\source\\repos\\ThankmasCalendar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/alyssanicoll/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Layla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -59,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
