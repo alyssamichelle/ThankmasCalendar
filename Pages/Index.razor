@@ -4,6 +4,18 @@
 <h1>Thankmas Calendar</h1>
 <p>Placeholder for explaining this calendar.</p>
 
+<TelerikWindow Width="500px" Height="300px" Centered="true" @bind-Visible=@WindowVisible Modal="true">
+    <WindowTitle>
+        <strong>Modal Window</strong>
+    </WindowTitle>
+    <WindowActions>
+        <WindowAction Name="Close" />
+    </WindowActions>
+    <WindowContent>
+        <p>Click the close button to dismiss this modal dialog.</p>
+    </WindowContent>
+</TelerikWindow>
+
 <div class="sky">
     @*<div class="snow-fall"></div>*@
     <div class="house-position">
@@ -36,34 +48,34 @@
                 <div class="house-flex">
                     <HouseIcingSides />
                     <div class="house-grid">
-                        <div class="window-1 grid-box animate__animated animate__wobble">
+                        <div @onclick="@(_=> HandleClick(1))" class="window-1 grid-box animate__animated @Window1Css">
                             <WindowLandscape />
                         </div>
-                        <div class="window-2 grid-box animate__animated animate__wobble">
+                        <div @onclick="@(_=> HandleClick(2))" class="window-2 grid-box animate__animated @Window2Css">
                             <WindowOval />
                         </div>
-                        <div class="window-3 grid-box animate__animated animate__wobble">
+                        <div @onclick="@(_=> HandleClick(3))" class="window-3 grid-box animate__animated @Window3Css">
                             <WindowLandscape ShowCoco="true" />
                         </div>
-                        <div class="window-4 grid-box animate__animated animate__wobble">
+                        <div @onclick="@(_=> HandleClick(4))" class="window-4 grid-box animate__animated @Window4Css">
                             <WindowCircle />
                         </div>
-                        <div class="window-5 grid-box animate__animated animate__wobble">
+                        <div @onclick="@(_=> HandleClick(5))" class="window-5 grid-box animate__animated @Window5Css">
                             <WindowSquare />
                         </div>
-                        <div class="window-6 grid-box animate__animated animate__wobble">
+                        <div @onclick="@(_=> HandleClick(6))" class="window-6 grid-box animate__animated @Window6Css">
                             <WindowSquare ShowDecorations="true" />
                         </div>
-                        <div class="window-7 grid-box animate__animated animate__wobble">
+                        <div @onclick="@(_=> HandleClick(7))" class="window-7 grid-box animate__animated @Window7Css">
                             <WindowCircle ShowDecoration="true" />
                         </div>
-                        <div class="window-8 grid-box animate__animated animate__wobble">
+                        <div @onclick="@(_=> HandleClick(8))" class="window-8 grid-box animate__animated @Window8Css">
                             <WindowPortrait />
                         </div>
-                        <div class="window-9 grid-box animate__animated animate__wobble">
+                        <div @onclick="@(_=> HandleClick(9))" class="window-9 grid-box animate__animated @Window9Css">
                             <WindowPortrait ShowDecorations="true" />
                         </div>
-                        <div class="door-10 grid-box animate__animated animate__wobble">
+                        <div @onclick="@(_=> HandleClick(10))" class="door-10 grid-box animate__animated @Window10Css">
                             <Door />
                         </div>
                     </div>
