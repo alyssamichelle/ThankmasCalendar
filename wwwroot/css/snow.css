@@ -9,6 +9,7 @@
   background-size: 600px 600px;
   animation: snow 30s linear infinite;
   content: "";
+  overflow:hidden;
 }
 
 .snow:after {
