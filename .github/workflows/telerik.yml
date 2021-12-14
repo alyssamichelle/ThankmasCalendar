@@ -28,8 +28,8 @@ jobs:
     - name: Restore NuGet Packages
       run: dotnet restore .\ThankmasCalendar.csproj --configfile .\NuGet.Config --runtime any
       env:
-        TELERIK_USERNAME: ${{ secrets.MyTelerikAccountUsername }}
-        TELERIK_PASSWORD: ${{ secrets.MyTelerikAccountPassword }}
+        TELERIK_USERNAME: ${{ secrets.MyTelerikUsername }}
+        TELERIK_PASSWORD: ${{ secrets.MyTelerikPassword }}
 
     - name: Build Solution
       run: dotnet build .\ThankmasCalendar.csproj --no-restore --configuration Release
