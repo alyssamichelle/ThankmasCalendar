@@ -1,0 +1,35 @@
+name: Build Web Application
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**/*.md'
+      - '**/*.gitignore'
+      - '**/*.gitattributes'
+
+jobs:
+  # A job that builds a .NET 6.0 web application using Telerik UI for Blazor. 
+  build_web:
+    runs-on: windows-2022
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '6.0.x'
+
+    - name: Restore NuGet Packages
+      run: dotnet restore src\Web\Web.sln --configfile src\NuGet.Config --runtime any
+      env:
+        TELERIK_USERNAME: ${{ secrets.MyTelerikAccountUsername }}
+        TELERIK_PASSWORD: ${{ secrets.MyTelerikAccountPassword }}
+
+    - name: Build Solution
+      run: dotnet build src\Web\Web.sln --no-restore --configuration Release
