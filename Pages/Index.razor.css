@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+/* the background color and grid structure for the background layout (trees, house snow, etc.) */
+.sky {
+  height: 100%;
+  width: 100vw;
+  background-color: #a3e0ed;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+/* positions the house in the grid created in .sky */
+.house-position {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  bottom: 0;
+  margin-top: auto;
+  z-index: 2;
+}
+/* centers the house within the grid box so it's always in the middle of the screen */
+.house-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* positions the roof on top of the house */
+.roof {
+  width: 75vw;
+  position: relative;
+  height: 142px;
+}
+.roof svg {
+  position: absolute;
+}
+/* positions and styles the house */
+.house {
+  background-color: #a5670b;
+  min-height: 80vh;
+  max-width: 70vw;
+  width: 100%;
+  padding: 10px 10px 40px;
+  /* positions the little curly icing immediately under the roof */
+}
+.house .house-icing-top {
+  width: 100%;
+  position: relative;
+  height: 300;
+  /* aligns the left and right icing lines on either side of the house grid */
+}
+.house .house-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* positions the left and right icing lines on the house */
+}
+.house .house-icing-sides {
+  width: 22px;
+  height: 100%;
+  /* creates the grid to organize the house windows and door */
+}
+.house .house-grid {
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+  /* styles that are applied to every window and door */
+}
+.house .house-grid .grid-box {
+  width: 100%;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+}
+/* positions the snow in the grid established in the .sky class and sticks it to the bottom of the page */
+.snow {
+  width: 100vw;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  position: sticky;
+  bottom: 0;
+  margin-top: auto;
+  z-index: 3;
+}
+.snow svg {
+  margin-bottom: -50px;
+}
+/* wraps both sets of trees in a flex box, and positions that on the grid established in the .sky class */
+.forest-wrapper {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  position: sticky;
+  bottom: 0;
+  margin-top: auto;
+  /* offsets the margins of both trees so they poke out from behind the house */
+}
+.forest-wrapper .forest-1 {
+  margin-left: -10%;
+}
+.forest-wrapper .forest-2 {
+  margin-right: -10%;
+}
+@media only screen and (min-width: 600px) {
+  .house-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .house-grid .window-2 {
+    grid-column: 1 / -1;
+    grid-row: 2 /3;
+  }
+  .house-grid .door-10 {
+    grid-column: 1 / -1;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .house-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .house-grid .window-2 {
+    grid-column: 2 / 4;
+  }
+  .house-grid .door-10 {
+    grid-column: 2 / 4;
+    grid-row: 3/4;
+  }
+  .house-grid .window-9 {
+    grid-column: 4 / 5;
+  }
+}
