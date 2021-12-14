@@ -18,5 +18,8 @@
   "homepage": "https://github.com/alyssamichelle/ThankmasCalendar#readme",
   "devDependencies": {
     "sass": "^1.45.0"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
   }
 }
