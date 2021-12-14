@@ -26,10 +26,10 @@ jobs:
         dotnet-version: '6.0.x'
 
     - name: Restore NuGet Packages
-      run: dotnet restore src\Web\Web.sln --configfile src\NuGet.Config --runtime any
+      run: dotnet restore .\ThankmasCalendar.csproj --configfile .\NuGet.Config --runtime any
       env:
-        TELERIK_USERNAME: ${{ secrets.MyTelerikAccountUsername }}
-        TELERIK_PASSWORD: ${{ secrets.MyTelerikAccountPassword }}
+        TELERIK_USERNAME: ${{ secrets.MyTelerikUsername }}
+        TELERIK_PASSWORD: ${{ secrets.MyTelerikPassword }}
 
     - name: Build Solution
-      run: dotnet build src\Web\Web.sln --no-restore --configuration Release
+      run: dotnet build .\ThankmasCalendar.csproj --no-restore --configuration Release
