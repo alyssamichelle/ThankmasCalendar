@@ -1,0 +1,22 @@
+{
+  "name": "thankmascalendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "npx sass ./Sass/Snow.scss ./wwwroot/css/snow.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyssamichelle/ThankmasCalendar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alyssamichelle/ThankmasCalendar/issues"
+  },
+  "homepage": "https://github.com/alyssamichelle/ThankmasCalendar#readme",
+  "devDependencies": {
+    "sass": "^1.45.0"
+  }
+}
