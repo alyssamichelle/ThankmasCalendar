@@ -6,13 +6,34 @@
 
 <TelerikWindow Width="500px" Height="300px" Centered="true" @bind-Visible=@WindowVisible Modal="true">
     <WindowTitle>
-        <strong>Modal Window</strong>
+        <strong>@WindowTitle</strong>
     </WindowTitle>
     <WindowActions>
         <WindowAction Name="Close" />
     </WindowActions>
     <WindowContent>
-        <p>Click the close button to dismiss this modal dialog.</p>
+
+        @if (IsError) {
+          <p>You cannot open this door yet....  You are now going on the NAUGHTY LIST!</p> 
+          <p>Alyssa will find you... and she has a very specific set of <b style="color: midnightBlue;">CSS skills.</b>  You have no idea what will happen when she 
+            <span style="font-family: courier new">margin-left: -1200px</span> your nose!</p>
+
+          <div style="width: 100%; display: flex;">
+          <img src="nose.png" style="height: 90px; margin: 2px auto; cursor: pointer;" alt="Your very painful nose - click me to close" @onclick="() => WindowVisible = false" />
+          </div>
+        } else
+        {
+          <p>@WindowContent</p>
+
+            @if (WindowHyperlinkText != string.Empty)
+            {
+                <p><a href="@WindowHyperlinkUrl" target="_blank">@WindowHyperlinkText</a></p>
+            }
+          
+            <p>Click the close button to dismiss this modal dialog.</p>
+
+        }
+
     </WindowContent>
 </TelerikWindow>
 
