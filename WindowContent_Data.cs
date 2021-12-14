@@ -8,9 +8,9 @@ public partial class WindowContent
 			new WindowContent
 			{
 				Id = 1,
-				Hyperlink = "https://telerik.com",
-				HyperlinkText = "Get your license today!",
-				WindowText = "On the first day of Thankmas my Developer Advocate gave to me.... 1 Telerik Blazor license"
+				Hyperlink = "https://www.csadvent.christmas/",
+				HyperlinkText = "Day 1 of Thankmas",
+				WindowText = "On the first day of our Thankmas calendar you will find... one handy resource! Today's knowledge nugget is for those deep into the C# world but also those who are curious to learn more about it and possibly venture into it. It's the awesome C# Advent put together by Matthew D. Groves. Enjoy a full month's worth of insightful content: https://www.csadvent.christmas/"
 			},
 			new WindowContent
 			{
